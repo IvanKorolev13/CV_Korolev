@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.page {
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    margin: 2% 0;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 25vw;
+    top: 0;
+    padding: 1%;
+    height: 27vh;
+    background-color: rgb(68, 96, 91);
+    color: rgb(249, 248, 223);
+}
+#name {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 10px;
+}
+#vacasion {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 25px;
+}
+.goalDiscription {
+    font-size: 0.8rem; 
+}
+.fixedBlock, #goal, #skills, .itemSkill, #contact {
+    display: flex;
+    flex-direction: column;
+}
+.fixedBlock {
+    padding: 2%;
+    height: 100vh;
+    width: 25vw;
+    position: fixed;
+    background-color: rgb(43, 61, 57);
+    color: rgb(249, 248, 223);
+    justify-content: space-between;
+}
+.mainFoto {
+    padding: 5px;
+    height: 20vh;
+    background-color: rgb(221, 236, 231);
+}
+#contact {
+    display: flex;
+    font-size: 0.8rem;
+}
+#contact > div {
+    padding: 10px;
+}
+.titleFixedBlock {
+    font-size: 1.3rem; 
+    text-align: center;
+}
+.skillDescription {
+    font-size: 0.8rem; 
+    overflow: hidden;
+}
+.itemSkills {
+    padding: 0 2%;
+}
+.titleSkill {
+    font-size: 0.6rem;
+    text-align: center;
+}
+.iconic {
+    text-decoration: none;
+    color: rgb(249, 248, 223);
+}
+.link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+}
+.link a {
+    padding: 3% 3% 5px 3%;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    width: 100vw; 
+    margin-left: 30vw;
+    margin-top: 27vh; 
+    padding: 2% 0% 2% 2%;
+    
+}
+.block, .title_exp{
+    margin: 7px 0;
+}
+.titleContent {
+    font-size: 1.5rem;
+}
+.period_exp {
+    font-size: 0.6rem;
+    margin: 5px;
+}
+.discription_exp {
+    font-size: 1rem;
+    padding-left: 5vw;
+}
+
+
+
+
